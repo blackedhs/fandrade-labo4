@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "labo4"
+    }
+  },
+  "defaultProject": "labo4",
+  "cli": {
+    "analytics": false
+  }
 }
