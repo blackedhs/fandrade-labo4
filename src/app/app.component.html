@@ -1,10 +1,9 @@
-
-<h1>Ingrese las edades</h1>
-<p><label for="">Edad Uno:<input type="text" [(ngModel)]='edadUno'></label> </p>
-<p><label for="">Edad Dos:<input type="text" [(ngModel)]='edadDos'></label> </p>
+<header color='primary'>Ingrese las edades</header>
+<p><label for="">Edad Uno:<input type="number" [(ngModel)]='edadUno'></label> </p>
+<p><label for="">Edad Dos:<input type="number" [(ngModel)]='edadDos'></label> </p>
 <p hidden id="pPromedio"><label for="">Promedio:<input type="text" value="{{promedio}}" ></label> </p>
 <p hidden id="pSuma"><label for="">Suma: <input type="text" value="{{suma}}" ></label> </p>
 
-<p><button (click)="CalcularClick()">Calcular</button>
-    <button (click)="LimpiarClick()">Limpiar</button></p>
+<p><button (click)="CalcularClick()" color='primary' >Calcular</button>
+    <button (click)="LimpiarClick()" color='primary'>Limpiar</button></p>
 <router-outlet></router-outlet>

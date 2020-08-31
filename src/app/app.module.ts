@@ -4,16 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { ErrorComponent } from './componentes/error/error.component';
+import { BienvenidosComponent } from './componentes/bienvenidos/bienvenidos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BienvenidoComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    BienvenidosComponent
   ],
   imports: [
     BrowserModule,

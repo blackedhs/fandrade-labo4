@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CssSelector } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -7,19 +8,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'labo4';
-  public edadUno = '';
-  public edadDos = '';
-  public suma;
-  public promedio;
+  public edadUno: number;
+  public edadDos: number;
+  public suma: number;
+  public promedio: number;
+  
   CalcularClick(){
+      
     this.suma = this.edadUno + this.edadDos;
     this.promedio = this.suma /2 ;
     document.getElementById('pPromedio').style.display = 'block';
     document.getElementById('pSuma').style.display = 'block';
+
   }
   LimpiarClick(){
-    this.edadUno ='';
-    this.edadDos ='';
+    this.edadUno =0;
+    this.edadDos =0;
     document.getElementById('pPromedio').style.display = 'none';
     document.getElementById('pSuma').style.display = 'none';
   }
