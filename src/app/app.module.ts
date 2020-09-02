@@ -7,13 +7,18 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './componentes/login/login.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { BienvenidosComponent } from './componentes/bienvenidos/bienvenidos.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { BarService } from './services/bar.service';
+import { CalculoComponent } from './componentes/calculo/calculo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ErrorComponent,
-    BienvenidosComponent
+    BienvenidosComponent,
+    NavbarComponent,
+    CalculoComponent
   ],
   imports: [
     BrowserModule,

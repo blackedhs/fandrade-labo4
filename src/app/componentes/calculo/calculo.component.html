@@ -1,0 +1,32 @@
+<div class="input-group mb-3 col-6">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">Edad uno</span>
+    </div>
+    <input type="number" class="form-control" placeholder="Ingrese edad uno" aria-label="Ingrese edad uno" aria-describedby="basic-addon2"
+    [(ngModel)]='numero1'>
+  </div>
+  <div class="input-group mb-3 col-6">
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">Edad dos</span>
+      </div>
+    <input type="number" class="form-control" placeholder="Ingrese edad dos" aria-label="Ingrese edad dos" aria-describedby="basic-addon2"
+    [(ngModel)]='numero2'>
+  </div>
+  <div class="btn-group mb-3 col-6">
+      <button class="btn btn-primary" (click)='calcular()'>Calcular</button>
+      <button class="btn btn-secondary" (click)='limpiar()'>Limpiar</button>
+  </div>
+  <div class="input-group mb-3 col-6">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">Suma</span>
+    </div>
+  <input type="number" class="form-control" aria-describedby="basic-addon2"
+  [(ngModel)]='suma'>
+</div>
+<div class="input-group mb-3 col-6">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">Promedio</span>
+    </div>
+  <input type="number" class="form-control" aria-describedby="basic-addon2"
+  [(ngModel)]='promedio'>
+</div> 

@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<!--
+  Flaticon icon font: Flaticon
+  Creation date: 22/06/2016 15:03
+-->
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    body {
+        font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    a {
+        color: #333;
+        border-bottom: 1px solid #a9fd00;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1em;
+    }
+    .title {
+        font-size: 1.25em;
+        text-align: center;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    header {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        padding: 1em;
+    }
+    header .logo {
+        width: 210px;
+        height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        border: none;
+    }
+    header strong {
+        font-size: 1.95em;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .demo {
+        margin: 2em auto;
+        line-height: 1.25em;
+    }
+    .demo ul li {
+        margin-bottom: 1em;
+    }
+    .demo ul li .num {
+        color: #222;
+        border-radius: 20px;
+        display: inline-block;
+        width: 26px;
+        padding: 3px;
+        height: 26px;
+        text-align: center;
+        margin-right: 0.5em;
+        border: 1px solid #222;
+    }
+    .demo ul li code {
+        background-color: #222;
+        border-radius: 4px;
+        padding: 0.25em 0.5em;
+        display: inline-block;
+        color: #fff;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        font-weight: lighter;
+        margin-top: 1em;
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    .demo ul li code.big {
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    .demo ul li code .red {
+        color: #EF3159;
+    }
+    .demo ul li code .green {
+        color: #ACFF65;
+    }
+    .demo ul li code .yellow {
+        color: #FFFF99;
+    }
+    .demo ul li code .blue {
+        color: #99D3FF;
+    }
+    .demo ul li code .purple {
+        color: #A295FF;
+    }
+    .demo ul li code .dots {
+        margin-top: 0.5em;
+        display: block;
+    }
+    #glyphs {
+        border-bottom: 1px solid #ccc;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .glyph {
+        display: inline-block;
+        width: 9em;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #222;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+        padding: 0.5em;
+        color: #FFFF99;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    .author-name {
+        font-size: 0.6em;
+        background-color: #fcfcfd;
+        border: 1px solid #DEDEE4;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        padding: 0.5em;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#a9fd00;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .attribution .title {
+        margin-top: 2em;
+    }
+    .attribution textarea {
+        background-color: #fcfcfd;
+        padding: 1em;
+        border: none;
+        box-shadow: none;
+        border: 1px solid #DEDEE4;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        height: 150px;
+        font-size: 0.8em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        -webkit-appearance: none;
+    }
+    .iconsuse {
+        margin: 2em auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+    .iconsuse:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .iconsuse .image {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+    .iconsuse .image p {
+        margin-bottom: 1em;
+    }
+    .iconsuse .image span {
+        display: block;
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5em;
+        color: #FFFF99;
+        margin-top: 1em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    #footer {
+        text-align: center;
+        background-color: #4C5B5C;
+        color: #7c9192;
+        padding: 1em;
+    }
+    #footer a {
+        border: none;
+        color: #a9fd00;
+        font-weight: normal;
+    }
+    @media (max-width: 960px) {
+        .iconsuse .image {
+            width: 50%;
+        }
+    }
+    @media (max-width: 560px) {
+        .iconsuse .image {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body class="characters-off">
+
+    <header>
+        <a href="http://www.flaticon.com" target="_blank" class="logo">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 560.875 102.036" enable-background="new 0 0 560.875 102.036" xml:space="preserve">
+                <defs>
+                </defs>
+                <g>
+                    <g class="letters">
+                        <path fill="#ffffff" d="M141.596,29.675c0-3.777,2.985-6.767,6.764-6.767h34.438c3.426,0,6.15,2.728,6.15,6.15
+                        c0,3.43-2.724,6.149-6.15,6.149h-27.674v13.091h23.719c3.429,0,6.151,2.724,6.151,6.15c0,3.43-2.723,6.149-6.151,6.149h-23.719
+                        v17.574c0,3.773-2.986,6.761-6.764,6.761c-3.779,0-6.764-2.989-6.764-6.761V29.675z"></path>
+                        <path fill="#ffffff" d="M193.844,29.149c0-3.781,2.985-6.767,6.764-6.767c3.776,0,6.763,2.985,6.763,6.767v42.957h25.039
+                        c3.426,0,6.149,2.726,6.149,6.153c0,3.425-2.723,6.15-6.149,6.15h-31.802c-3.779,0-6.764-2.986-6.764-6.768V29.149z"></path>
+                        <path fill="#ffffff" d="M241.891,75.71l21.438-48.407c1.492-3.341,4.215-5.357,7.906-5.357h0.792
+                        c3.686,0,6.323,2.017,7.815,5.357l21.439,48.407c0.436,0.967,0.701,1.845,0.701,2.723c0,3.602-2.809,6.501-6.414,6.501
+                        c-3.161,0-5.269-1.845-6.499-4.655l-4.132-9.661h-27.059l-4.301,10.102c-1.144,2.631-3.426,4.214-6.237,4.214
+                        c-3.517,0-6.24-2.81-6.24-6.325C241.1,77.64,241.451,76.677,241.891,75.71z M279.932,58.666l-8.521-20.297l-8.526,20.297H279.932
+                        z"></path>
+                        <path fill="#ffffff" d="M314.864,35.387H301.86c-3.429,0-6.239-2.813-6.239-6.238c0-3.429,2.811-6.24,6.239-6.24h39.533
+                        c3.426,0,6.237,2.811,6.237,6.24c0,3.425-2.811,6.238-6.237,6.238h-13.001v42.785c0,3.773-2.99,6.761-6.764,6.761
+                        c-3.779,0-6.764-2.989-6.764-6.761V35.387z"></path>
+                        <path fill="#A9FD00" d="M352.615,29.149c0-3.781,2.985-6.767,6.767-6.767c3.774,0,6.761,2.985,6.761,6.767v49.024
+                        c0,3.773-2.987,6.761-6.761,6.761c-3.781,0-6.767-2.989-6.767-6.761V29.149z"></path>
+                        <path fill="#A9FD00" d="M374.132,53.836v-0.179c0-17.481,13.178-31.801,32.065-31.801c9.22,0,15.459,2.458,20.557,6.238
+                        c1.402,1.054,2.637,2.985,2.637,5.357c0,3.692-2.985,6.59-6.681,6.59c-1.845,0-3.071-0.702-4.044-1.319
+                        c-3.776-2.813-7.729-4.393-12.562-4.393c-10.364,0-17.831,8.611-17.831,19.154v0.173c0,10.542,7.291,19.329,17.831,19.329
+                        c5.715,0,9.492-1.756,13.359-4.834c1.049-0.874,2.458-1.491,4.039-1.491c3.429,0,6.325,2.813,6.325,6.236
+                        c0,2.106-1.056,3.78-2.282,4.834c-5.539,4.834-12.036,7.733-21.878,7.733C387.572,85.464,374.132,71.493,374.132,53.836z"></path>
+                        <path fill="#A9FD00" d="M433.009,53.836v-0.179c0-17.481,13.79-31.801,32.766-31.801c18.981,0,32.592,14.143,32.592,31.628v0.173
+                        c0,17.483-13.785,31.807-32.769,31.807C446.625,85.464,433.009,71.32,433.009,53.836z M484.224,53.836v-0.179
+                        c0-10.539-7.725-19.326-18.626-19.326c-10.893,0-18.449,8.611-18.449,19.154v0.173c0,10.542,7.73,19.329,18.626,19.329
+                        C476.676,72.986,484.224,64.378,484.224,53.836z"></path>
+                        <path fill="#A9FD00" d="M506.233,29.321c0-3.774,2.99-6.763,6.767-6.763h1.401c3.252,0,5.183,1.583,7.029,3.953l26.093,34.265
+                        V29.059c0-3.692,2.99-6.677,6.681-6.677c3.683,0,6.671,2.985,6.671,6.677v48.934c0,3.78-2.987,6.765-6.764,6.765h-0.436
+                        c-3.257,0-5.188-1.581-7.034-3.953l-27.056-35.492v32.944c0,3.687-2.985,6.676-6.678,6.676c-3.683,0-6.673-2.989-6.673-6.676
+                        V29.321z"></path>
+                    </g>
+                    <g class="insignia">
+                        <path fill="#ffffff" d="M48.372,56.137h12.517l11.156-18.537H37.186L25.688,18.539h57.825L94.668,0H9.271
+                        C5.925,0,2.842,1.801,1.198,4.716c-1.644,2.907-1.593,6.482,0.134,9.343l50.38,83.501c1.678,2.781,4.689,4.476,7.938,4.476
+                        c3.246,0,6.257-1.695,7.935-4.476l2.898-4.804L48.372,56.137z"></path>
+                        <g class="i">
+                            <path fill="#A9FD00" d="M93.575,18.539h0.031v0.004l21.652,0.004l2.705-4.488c1.727-2.861,1.778-6.436,0.133-9.343
+                            C116.454,1.801,113.371,0,110.026,0h-5.294L93.575,18.539z"></path>
+                            <polygon fill="#A9FD00" points="88.291,27.356 64.725,66.486 75.519,84.404 109.942,27.356"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <strong>Font Demo</strong>
+    </header>
+
+
+    <section class="demo wrapper">
+
+        <p class="title">Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2</span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span class="yellow">"stylesheet"</span> <span class="green">type</span>=<span class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/flaticon.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3</span>Use the icon class on <code>"<span class="blue">display</span>:<span class="purple"> inline</span>"</code> elements:
+                    <br />
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+
+   <section id="glyphs">          
+    
+      
+        <div class="glyph"><div class="glyph-icon flaticon-atom-variant"></div>
+            <div class="class-name">.flaticon-atom-variant</div>
+            <div class="author-name">Author: <a data-file="atom-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-back-part-of-the-body-showing-butt-area"></div>
+            <div class="class-name">.flaticon-back-part-of-the-body-showing-butt-area</div>
+            <div class="author-name">Author: <a data-file="back-part-of-the-body-showing-butt-area" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ball-of-the-knee"></div>
+            <div class="class-name">.flaticon-ball-of-the-knee</div>
+            <div class="author-name">Author: <a data-file="ball-of-the-knee" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-blond-female-hair-shape"></div>
+            <div class="class-name">.flaticon-blond-female-hair-shape</div>
+            <div class="author-name">Author: <a data-file="blond-female-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-blond-female-short-hair-shape"></div>
+            <div class="class-name">.flaticon-blond-female-short-hair-shape</div>
+            <div class="author-name">Author: <a data-file="blond-female-short-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-blood-drop-on-a-hand-wound"></div>
+            <div class="class-name">.flaticon-blood-drop-on-a-hand-wound</div>
+            <div class="author-name">Author: <a data-file="blood-drop-on-a-hand-wound" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-cells-under-a-magnification-tool"></div>
+            <div class="class-name">.flaticon-body-cells-under-a-magnification-tool</div>
+            <div class="author-name">Author: <a data-file="body-cells-under-a-magnification-tool" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-organ-variant-with-line"></div>
+            <div class="class-name">.flaticon-body-organ-variant-with-line</div>
+            <div class="author-name">Author: <a data-file="body-organ-variant-with-line" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-organ-with-hair-strands-view-on-plate"></div>
+            <div class="class-name">.flaticon-body-organ-with-hair-strands-view-on-plate</div>
+            <div class="author-name">Author: <a data-file="body-organ-with-hair-strands-view-on-plate" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-part-with-baby-inside"></div>
+            <div class="class-name">.flaticon-body-part-with-baby-inside</div>
+            <div class="author-name">Author: <a data-file="body-part-with-baby-inside" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-part-with-lines"></div>
+            <div class="class-name">.flaticon-body-part-with-lines</div>
+            <div class="author-name">Author: <a data-file="body-part-with-lines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body-part-x-ray-internal-vision"></div>
+            <div class="class-name">.flaticon-body-part-x-ray-internal-vision</div>
+            <div class="author-name">Author: <a data-file="body-part-x-ray-internal-vision" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bone-structure-tip"></div>
+            <div class="class-name">.flaticon-bone-structure-tip</div>
+            <div class="author-name">Author: <a data-file="bone-structure-tip" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bones-cross"></div>
+            <div class="class-name">.flaticon-bones-cross</div>
+            <div class="author-name">Author: <a data-file="bones-cross" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bones-silhouette-forming-a-cross-symbol"></div>
+            <div class="class-name">.flaticon-bones-silhouette-forming-a-cross-symbol</div>
+            <div class="author-name">Author: <a data-file="bones-silhouette-forming-a-cross-symbol" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bones-x-ray-vision"></div>
+            <div class="class-name">.flaticon-bones-x-ray-vision</div>
+            <div class="author-name">Author: <a data-file="bones-x-ray-vision" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bosom"></div>
+            <div class="class-name">.flaticon-bosom</div>
+            <div class="author-name">Author: <a data-file="bosom" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-brain-body-organ-outline"></div>
+            <div class="class-name">.flaticon-brain-body-organ-outline</div>
+            <div class="author-name">Author: <a data-file="brain-body-organ-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-brain-inside-human-head"></div>
+            <div class="class-name">.flaticon-brain-inside-human-head</div>
+            <div class="author-name">Author: <a data-file="brain-inside-human-head" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-brain-upper-view-outline"></div>
+            <div class="class-name">.flaticon-brain-upper-view-outline</div>
+            <div class="author-name">Author: <a data-file="brain-upper-view-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-brunette-female-woman-long-hair"></div>
+            <div class="class-name">.flaticon-brunette-female-woman-long-hair</div>
+            <div class="author-name">Author: <a data-file="brunette-female-woman-long-hair" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-butt-wearing-underwear"></div>
+            <div class="class-name">.flaticon-butt-wearing-underwear</div>
+            <div class="author-name">Author: <a data-file="butt-wearing-underwear" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-calf-and-foot"></div>
+            <div class="class-name">.flaticon-calf-and-foot</div>
+            <div class="author-name">Author: <a data-file="calf-and-foot" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-capsule-black-and-white-variant"></div>
+            <div class="class-name">.flaticon-capsule-black-and-white-variant</div>
+            <div class="author-name">Author: <a data-file="capsule-black-and-white-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-circular-shape-variant-with-dot"></div>
+            <div class="class-name">.flaticon-circular-shape-variant-with-dot</div>
+            <div class="author-name">Author: <a data-file="circular-shape-variant-with-dot" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-closed-eyes-with-lashes-and-brows"></div>
+            <div class="class-name">.flaticon-closed-eyes-with-lashes-and-brows</div>
+            <div class="author-name">Author: <a data-file="closed-eyes-with-lashes-and-brows" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-closed-fist-hand-gesture"></div>
+            <div class="class-name">.flaticon-closed-fist-hand-gesture</div>
+            <div class="author-name">Author: <a data-file="closed-fist-hand-gesture" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-column-inside-a-male-human-body-silhouette-in-side-view"></div>
+            <div class="class-name">.flaticon-column-inside-a-male-human-body-silhouette-in-side-view</div>
+            <div class="author-name">Author: <a data-file="column-inside-a-male-human-body-silhouette-in-side-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-couple-of-fingers"></div>
+            <div class="class-name">.flaticon-couple-of-fingers</div>
+            <div class="author-name">Author: <a data-file="couple-of-fingers" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cross-in-a-circle-on-a-human-body-silhouette"></div>
+            <div class="class-name">.flaticon-cross-in-a-circle-on-a-human-body-silhouette</div>
+            <div class="author-name">Author: <a data-file="cross-in-a-circle-on-a-human-body-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-dentist"></div>
+            <div class="class-name">.flaticon-dentist</div>
+            <div class="author-name">Author: <a data-file="dentist" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-dna"></div>
+            <div class="class-name">.flaticon-dna</div>
+            <div class="author-name">Author: <a data-file="dna" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-dna-deoxyribonucleic-acid"></div>
+            <div class="class-name">.flaticon-dna-deoxyribonucleic-acid</div>
+            <div class="author-name">Author: <a data-file="dna-deoxyribonucleic-acid" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-dna-strands-outline"></div>
+            <div class="class-name">.flaticon-dna-strands-outline</div>
+            <div class="author-name">Author: <a data-file="dna-strands-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-domino-piece-with-six-dots"></div>
+            <div class="class-name">.flaticon-domino-piece-with-six-dots</div>
+            <div class="author-name">Author: <a data-file="domino-piece-with-six-dots" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ear-lobe-side-view-outline"></div>
+            <div class="class-name">.flaticon-ear-lobe-side-view-outline</div>
+            <div class="author-name">Author: <a data-file="ear-lobe-side-view-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ear-outline"></div>
+            <div class="class-name">.flaticon-ear-outline</div>
+            <div class="author-name">Author: <a data-file="ear-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-excretory-system-silhouette"></div>
+            <div class="class-name">.flaticon-excretory-system-silhouette</div>
+            <div class="author-name">Author: <a data-file="excretory-system-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-eye-outline-with-lashes"></div>
+            <div class="class-name">.flaticon-eye-outline-with-lashes</div>
+            <div class="author-name">Author: <a data-file="eye-outline-with-lashes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-eye-variant-with-enlarged-pupil"></div>
+            <div class="class-name">.flaticon-eye-variant-with-enlarged-pupil</div>
+            <div class="author-name">Author: <a data-file="eye-variant-with-enlarged-pupil" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-eyeball"></div>
+            <div class="class-name">.flaticon-eyeball</div>
+            <div class="author-name">Author: <a data-file="eyeball" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-face-of-a-woman-outline"></div>
+            <div class="class-name">.flaticon-face-of-a-woman-outline</div>
+            <div class="author-name">Author: <a data-file="face-of-a-woman-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-blond-hair-shape-outline"></div>
+            <div class="class-name">.flaticon-female-blond-hair-shape-outline</div>
+            <div class="author-name">Author: <a data-file="female-blond-hair-shape-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-hair-variant-outline"></div>
+            <div class="class-name">.flaticon-female-hair-variant-outline</div>
+            <div class="author-name">Author: <a data-file="female-hair-variant-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-hips-and-waist"></div>
+            <div class="class-name">.flaticon-female-hips-and-waist</div>
+            <div class="author-name">Author: <a data-file="female-hips-and-waist" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-human-eyes"></div>
+            <div class="class-name">.flaticon-female-human-eyes</div>
+            <div class="author-name">Author: <a data-file="female-human-eyes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-reproductive-system-representation"></div>
+            <div class="class-name">.flaticon-female-reproductive-system-representation</div>
+            <div class="author-name">Author: <a data-file="female-reproductive-system-representation" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-short-hair-style-variant"></div>
+            <div class="class-name">.flaticon-female-short-hair-style-variant</div>
+            <div class="author-name">Author: <a data-file="female-short-hair-style-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-short-hair-variant"></div>
+            <div class="class-name">.flaticon-female-short-hair-variant</div>
+            <div class="author-name">Author: <a data-file="female-short-hair-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-sign"></div>
+            <div class="class-name">.flaticon-female-sign</div>
+            <div class="author-name">Author: <a data-file="female-sign" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-female-torso-outline-in-topless"></div>
+            <div class="class-name">.flaticon-female-torso-outline-in-topless</div>
+            <div class="author-name">Author: <a data-file="female-torso-outline-in-topless" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-fetus-in-an-uterus"></div>
+            <div class="class-name">.flaticon-fetus-in-an-uterus</div>
+            <div class="author-name">Author: <a data-file="fetus-in-an-uterus" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-first-aid-cross-in-a-circle"></div>
+            <div class="class-name">.flaticon-first-aid-cross-in-a-circle</div>
+            <div class="author-name">Author: <a data-file="first-aid-cross-in-a-circle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-foot-side-view-outline"></div>
+            <div class="class-name">.flaticon-foot-side-view-outline</div>
+            <div class="author-name">Author: <a data-file="foot-side-view-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-footprints-outline-variant"></div>
+            <div class="class-name">.flaticon-footprints-outline-variant</div>
+            <div class="author-name">Author: <a data-file="footprints-outline-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-gallbladder-on-viewing-plate"></div>
+            <div class="class-name">.flaticon-gallbladder-on-viewing-plate</div>
+            <div class="author-name">Author: <a data-file="gallbladder-on-viewing-plate" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-gymnast-in-frontal-view-showing-his-muscles"></div>
+            <div class="class-name">.flaticon-gymnast-in-frontal-view-showing-his-muscles</div>
+            <div class="author-name">Author: <a data-file="gymnast-in-frontal-view-showing-his-muscles" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hair-follicle"></div>
+            <div class="class-name">.flaticon-hair-follicle</div>
+            <div class="author-name">Author: <a data-file="hair-follicle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-bones-in-x-ray-plate"></div>
+            <div class="class-name">.flaticon-hand-bones-in-x-ray-plate</div>
+            <div class="author-name">Author: <a data-file="hand-bones-in-x-ray-plate" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-finger-with-a-ribbon"></div>
+            <div class="class-name">.flaticon-hand-finger-with-a-ribbon</div>
+            <div class="author-name">Author: <a data-file="hand-finger-with-a-ribbon" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-gesture-outline-pointing-to-the-left"></div>
+            <div class="class-name">.flaticon-hand-gesture-outline-pointing-to-the-left</div>
+            <div class="author-name">Author: <a data-file="hand-gesture-outline-pointing-to-the-left" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-gesture-pointing-to-the-left"></div>
+            <div class="class-name">.flaticon-hand-gesture-pointing-to-the-left</div>
+            <div class="author-name">Author: <a data-file="hand-gesture-pointing-to-the-left" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-gesture-raising-the-index-finger"></div>
+            <div class="class-name">.flaticon-hand-gesture-raising-the-index-finger</div>
+            <div class="author-name">Author: <a data-file="hand-gesture-raising-the-index-finger" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-nadis"></div>
+            <div class="class-name">.flaticon-hand-nadis</div>
+            <div class="author-name">Author: <a data-file="hand-nadis" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-outline"></div>
+            <div class="class-name">.flaticon-hand-outline</div>
+            <div class="author-name">Author: <a data-file="hand-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-palm-outline"></div>
+            <div class="class-name">.flaticon-hand-palm-outline</div>
+            <div class="author-name">Author: <a data-file="hand-palm-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-palm-outline-with-scratch-wound-with-blood-droplet"></div>
+            <div class="class-name">.flaticon-hand-palm-outline-with-scratch-wound-with-blood-droplet</div>
+            <div class="author-name">Author: <a data-file="hand-palm-outline-with-scratch-wound-with-blood-droplet" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-showing-palm-outline"></div>
+            <div class="class-name">.flaticon-hand-showing-palm-outline</div>
+            <div class="author-name">Author: <a data-file="hand-showing-palm-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hand-showing-palm-outline-with-band-aid"></div>
+            <div class="class-name">.flaticon-hand-showing-palm-outline-with-band-aid</div>
+            <div class="author-name">Author: <a data-file="hand-showing-palm-outline-with-band-aid" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-heart-black-shape-for-valentines"></div>
+            <div class="class-name">.flaticon-heart-black-shape-for-valentines</div>
+            <div class="author-name">Author: <a data-file="heart-black-shape-for-valentines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-heart-shape-outline-with-lifeline-variant"></div>
+            <div class="class-name">.flaticon-heart-shape-outline-with-lifeline-variant</div>
+            <div class="author-name">Author: <a data-file="heart-shape-outline-with-lifeline-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-heart-shape-with-beats-line"></div>
+            <div class="class-name">.flaticon-heart-shape-with-beats-line</div>
+            <div class="author-name">Author: <a data-file="heart-shape-with-beats-line" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-heart-silhouette"></div>
+            <div class="class-name">.flaticon-heart-silhouette</div>
+            <div class="author-name">Author: <a data-file="heart-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hips-bones-x-rays-vision"></div>
+            <div class="class-name">.flaticon-hips-bones-x-rays-vision</div>
+            <div class="author-name">Author: <a data-file="hips-bones-x-rays-vision" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hips-human-body-part"></div>
+            <div class="class-name">.flaticon-hips-human-body-part</div>
+            <div class="author-name">Author: <a data-file="hips-human-body-part" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hips-x-rays-image-on-standing-man-hands"></div>
+            <div class="class-name">.flaticon-hips-x-rays-image-on-standing-man-hands</div>
+            <div class="author-name">Author: <a data-file="hips-x-rays-image-on-standing-man-hands" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-silhouette-with-focus-on-respiratory-system"></div>
+            <div class="class-name">.flaticon-human-body-silhouette-with-focus-on-respiratory-system</div>
+            <div class="author-name">Author: <a data-file="human-body-silhouette-with-focus-on-respiratory-system" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-silhouette-with-focus-on-the-head"></div>
+            <div class="class-name">.flaticon-human-body-silhouette-with-focus-on-the-head</div>
+            <div class="author-name">Author: <a data-file="human-body-silhouette-with-focus-on-the-head" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-silhouette-with-highlight-on-large-intestines"></div>
+            <div class="class-name">.flaticon-human-body-silhouette-with-highlight-on-large-intestines</div>
+            <div class="author-name">Author: <a data-file="human-body-silhouette-with-highlight-on-large-intestines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-standing-black-silhouette"></div>
+            <div class="class-name">.flaticon-human-body-standing-black-silhouette</div>
+            <div class="author-name">Author: <a data-file="human-body-standing-black-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-with-heart-silhouette"></div>
+            <div class="class-name">.flaticon-human-body-with-heart-silhouette</div>
+            <div class="author-name">Author: <a data-file="human-body-with-heart-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-body-with-x-ray-plate-focusing-on-stomach"></div>
+            <div class="class-name">.flaticon-human-body-with-x-ray-plate-focusing-on-stomach</div>
+            <div class="author-name">Author: <a data-file="human-body-with-x-ray-plate-focusing-on-stomach" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-footprints"></div>
+            <div class="class-name">.flaticon-human-footprints</div>
+            <div class="author-name">Author: <a data-file="human-footprints" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-hair-outline-shape"></div>
+            <div class="class-name">.flaticon-human-hair-outline-shape</div>
+            <div class="author-name">Author: <a data-file="human-hair-outline-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-hand-bones"></div>
+            <div class="class-name">.flaticon-human-hand-bones</div>
+            <div class="author-name">Author: <a data-file="human-hand-bones" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-head-silhouette-with-a-line-in-mouth-pharynx-and-larynx"></div>
+            <div class="class-name">.flaticon-human-head-silhouette-with-a-line-in-mouth-pharynx-and-larynx</div>
+            <div class="author-name">Author: <a data-file="human-head-silhouette-with-a-line-in-mouth-pharynx-and-larynx" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-hips-bones-inside-a-standing-male-body-black-silhouette"></div>
+            <div class="class-name">.flaticon-human-hips-bones-inside-a-standing-male-body-black-silhouette</div>
+            <div class="author-name">Author: <a data-file="human-hips-bones-inside-a-standing-male-body-black-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-lips"></div>
+            <div class="class-name">.flaticon-human-lips</div>
+            <div class="author-name">Author: <a data-file="human-lips" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-lungs-outline"></div>
+            <div class="class-name">.flaticon-human-lungs-outline</div>
+            <div class="author-name">Author: <a data-file="human-lungs-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-outline-with-heart"></div>
+            <div class="class-name">.flaticon-human-outline-with-heart</div>
+            <div class="author-name">Author: <a data-file="human-outline-with-heart" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-ribs-bones"></div>
+            <div class="class-name">.flaticon-human-ribs-bones</div>
+            <div class="author-name">Author: <a data-file="human-ribs-bones" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-silhouette-with-focus-on-the-lungs"></div>
+            <div class="class-name">.flaticon-human-silhouette-with-focus-on-the-lungs</div>
+            <div class="author-name">Author: <a data-file="human-silhouette-with-focus-on-the-lungs" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-silhouette-with-white-image-of-the-heart"></div>
+            <div class="class-name">.flaticon-human-silhouette-with-white-image-of-the-heart</div>
+            <div class="author-name">Author: <a data-file="human-silhouette-with-white-image-of-the-heart" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-skull-side-view"></div>
+            <div class="class-name">.flaticon-human-skull-side-view</div>
+            <div class="author-name">Author: <a data-file="human-skull-side-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-skull-side-view-silhouette"></div>
+            <div class="class-name">.flaticon-human-skull-side-view-silhouette</div>
+            <div class="author-name">Author: <a data-file="human-skull-side-view-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-human-skull-with-crossed-bones-silhouette"></div>
+            <div class="class-name">.flaticon-human-skull-with-crossed-bones-silhouette</div>
+            <div class="author-name">Author: <a data-file="human-skull-with-crossed-bones-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hunger-games-hand-gesture"></div>
+            <div class="class-name">.flaticon-hunger-games-hand-gesture</div>
+            <div class="author-name">Author: <a data-file="hunger-games-hand-gesture" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-hydration"></div>
+            <div class="class-name">.flaticon-hydration</div>
+            <div class="author-name">Author: <a data-file="hydration" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-image-of-sperm-cells"></div>
+            <div class="class-name">.flaticon-image-of-sperm-cells</div>
+            <div class="author-name">Author: <a data-file="image-of-sperm-cells" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-injured-tooth"></div>
+            <div class="class-name">.flaticon-injured-tooth</div>
+            <div class="author-name">Author: <a data-file="injured-tooth" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-internal-human-organs"></div>
+            <div class="class-name">.flaticon-internal-human-organs</div>
+            <div class="author-name">Author: <a data-file="internal-human-organs" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-internal-human-organs-couple"></div>
+            <div class="class-name">.flaticon-internal-human-organs-couple</div>
+            <div class="author-name">Author: <a data-file="internal-human-organs-couple" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-intestines"></div>
+            <div class="class-name">.flaticon-intestines</div>
+            <div class="author-name">Author: <a data-file="intestines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-kidney-outline"></div>
+            <div class="class-name">.flaticon-kidney-outline</div>
+            <div class="author-name">Author: <a data-file="kidney-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-kneecap"></div>
+            <div class="class-name">.flaticon-kneecap</div>
+            <div class="author-name">Author: <a data-file="kneecap" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-large-intestine-outline"></div>
+            <div class="class-name">.flaticon-large-intestine-outline</div>
+            <div class="author-name">Author: <a data-file="large-intestine-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-large-intestines-outline"></div>
+            <div class="class-name">.flaticon-large-intestines-outline</div>
+            <div class="author-name">Author: <a data-file="large-intestines-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-lifeline-and-heart-shape-on-a-graphic"></div>
+            <div class="class-name">.flaticon-lifeline-and-heart-shape-on-a-graphic</div>
+            <div class="author-name">Author: <a data-file="lifeline-and-heart-shape-on-a-graphic" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-liquid-droplet-on-ground"></div>
+            <div class="class-name">.flaticon-liquid-droplet-on-ground</div>
+            <div class="author-name">Author: <a data-file="liquid-droplet-on-ground" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-liver"></div>
+            <div class="class-name">.flaticon-liver</div>
+            <div class="author-name">Author: <a data-file="liver" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-liver-organ-inside-the-abdomen-outline"></div>
+            <div class="class-name">.flaticon-liver-organ-inside-the-abdomen-outline</div>
+            <div class="author-name">Author: <a data-file="liver-organ-inside-the-abdomen-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-long-wavy-hair-variant"></div>
+            <div class="class-name">.flaticon-long-wavy-hair-variant</div>
+            <div class="author-name">Author: <a data-file="long-wavy-hair-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-lungs-image-on-man-hands"></div>
+            <div class="class-name">.flaticon-lungs-image-on-man-hands</div>
+            <div class="author-name">Author: <a data-file="lungs-image-on-man-hands" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-lungs-inside-the-human-body"></div>
+            <div class="class-name">.flaticon-lungs-inside-the-human-body</div>
+            <div class="author-name">Author: <a data-file="lungs-inside-the-human-body" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-lungs-shape-in-a-circle-on-a-human-body"></div>
+            <div class="class-name">.flaticon-lungs-shape-in-a-circle-on-a-human-body</div>
+            <div class="author-name">Author: <a data-file="lungs-shape-in-a-circle-on-a-human-body" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-lungs-with-the-trachea"></div>
+            <div class="class-name">.flaticon-lungs-with-the-trachea</div>
+            <div class="author-name">Author: <a data-file="lungs-with-the-trachea" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-and-female-gender-symbols"></div>
+            <div class="class-name">.flaticon-male-and-female-gender-symbols</div>
+            <div class="author-name">Author: <a data-file="male-and-female-gender-symbols" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-arm-muscles"></div>
+            <div class="class-name">.flaticon-male-arm-muscles</div>
+            <div class="author-name">Author: <a data-file="male-arm-muscles" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-black-short-hair-shape-silhouette"></div>
+            <div class="class-name">.flaticon-male-black-short-hair-shape-silhouette</div>
+            <div class="author-name">Author: <a data-file="male-black-short-hair-shape-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-cartoon-outline-with-liquid-droplet"></div>
+            <div class="class-name">.flaticon-male-cartoon-outline-with-liquid-droplet</div>
+            <div class="author-name">Author: <a data-file="male-cartoon-outline-with-liquid-droplet" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-hair-variant"></div>
+            <div class="class-name">.flaticon-male-hair-variant</div>
+            <div class="author-name">Author: <a data-file="male-hair-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-hand-palm-outline"></div>
+            <div class="class-name">.flaticon-male-hand-palm-outline</div>
+            <div class="author-name">Author: <a data-file="male-hand-palm-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-head-outline-side-view-with-medical-tape"></div>
+            <div class="class-name">.flaticon-male-head-outline-side-view-with-medical-tape</div>
+            <div class="author-name">Author: <a data-file="male-head-outline-side-view-with-medical-tape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-head-side-view-with-brains"></div>
+            <div class="class-name">.flaticon-male-head-side-view-with-brains</div>
+            <div class="author-name">Author: <a data-file="male-head-side-view-with-brains" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-hips-and-quadriceps"></div>
+            <div class="class-name">.flaticon-male-hips-and-quadriceps</div>
+            <div class="author-name">Author: <a data-file="male-hips-and-quadriceps" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-human-body-silhouette-variant"></div>
+            <div class="class-name">.flaticon-male-human-body-silhouette-variant</div>
+            <div class="author-name">Author: <a data-file="male-human-body-silhouette-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-legs-couple"></div>
+            <div class="class-name">.flaticon-male-legs-couple</div>
+            <div class="author-name">Author: <a data-file="male-legs-couple" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-nose-shape-of-a-line"></div>
+            <div class="class-name">.flaticon-male-nose-shape-of-a-line</div>
+            <div class="author-name">Author: <a data-file="male-nose-shape-of-a-line" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-outline-with-heart-shape-and-lifeline"></div>
+            <div class="class-name">.flaticon-male-outline-with-heart-shape-and-lifeline</div>
+            <div class="author-name">Author: <a data-file="male-outline-with-heart-shape-and-lifeline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-outline-with-image-of-the-heart"></div>
+            <div class="class-name">.flaticon-male-outline-with-image-of-the-heart</div>
+            <div class="author-name">Author: <a data-file="male-outline-with-image-of-the-heart" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-outline-with-stomach-silhouette"></div>
+            <div class="class-name">.flaticon-male-outline-with-stomach-silhouette</div>
+            <div class="author-name">Author: <a data-file="male-outline-with-stomach-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-outline-with-syringe-symbol"></div>
+            <div class="class-name">.flaticon-male-outline-with-syringe-symbol</div>
+            <div class="author-name">Author: <a data-file="male-outline-with-syringe-symbol" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-short-hair-shape"></div>
+            <div class="class-name">.flaticon-male-short-hair-shape</div>
+            <div class="author-name">Author: <a data-file="male-short-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-sign"></div>
+            <div class="class-name">.flaticon-male-sign</div>
+            <div class="author-name">Author: <a data-file="male-sign" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-silhouette-showing-view-of-dna-structure"></div>
+            <div class="class-name">.flaticon-male-silhouette-showing-view-of-dna-structure</div>
+            <div class="author-name">Author: <a data-file="male-silhouette-showing-view-of-dna-structure" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-silhouette-with-body-organ-in-x-ray-view"></div>
+            <div class="class-name">.flaticon-male-silhouette-with-body-organ-in-x-ray-view</div>
+            <div class="author-name">Author: <a data-file="male-silhouette-with-body-organ-in-x-ray-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-silhouette-with-plate-showing-sperms"></div>
+            <div class="class-name">.flaticon-male-silhouette-with-plate-showing-sperms</div>
+            <div class="author-name">Author: <a data-file="male-silhouette-with-plate-showing-sperms" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-male-with-bald-hair-side-view"></div>
+            <div class="class-name">.flaticon-male-with-bald-hair-side-view</div>
+            <div class="author-name">Author: <a data-file="male-with-bald-hair-side-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-man-having-an-x-ray-of-bone"></div>
+            <div class="class-name">.flaticon-man-having-an-x-ray-of-bone</div>
+            <div class="author-name">Author: <a data-file="man-having-an-x-ray-of-bone" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-man-holding-a-hand-bones-x-ray-image"></div>
+            <div class="class-name">.flaticon-man-holding-a-hand-bones-x-ray-image</div>
+            <div class="author-name">Author: <a data-file="man-holding-a-hand-bones-x-ray-image" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-man-outline-with-view-of-the-intestine"></div>
+            <div class="class-name">.flaticon-man-outline-with-view-of-the-intestine</div>
+            <div class="author-name">Author: <a data-file="man-outline-with-view-of-the-intestine" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-man-torso-muscles"></div>
+            <div class="class-name">.flaticon-man-torso-muscles</div>
+            <div class="author-name">Author: <a data-file="man-torso-muscles" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-medical-kit-outline"></div>
+            <div class="class-name">.flaticon-medical-kit-outline</div>
+            <div class="author-name">Author: <a data-file="medical-kit-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-molecule-with-rings"></div>
+            <div class="class-name">.flaticon-molecule-with-rings</div>
+            <div class="author-name">Author: <a data-file="molecule-with-rings" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-moustache-outline"></div>
+            <div class="class-name">.flaticon-moustache-outline</div>
+            <div class="author-name">Author: <a data-file="moustache-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-mouth-outline-showing-off-tongue"></div>
+            <div class="class-name">.flaticon-mouth-outline-showing-off-tongue</div>
+            <div class="author-name">Author: <a data-file="mouth-outline-showing-off-tongue" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-muscular-arm-outline"></div>
+            <div class="class-name">.flaticon-muscular-arm-outline</div>
+            <div class="author-name">Author: <a data-file="muscular-arm-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-mustache-curled-tip-variant"></div>
+            <div class="class-name">.flaticon-mustache-curled-tip-variant</div>
+            <div class="author-name">Author: <a data-file="mustache-curled-tip-variant" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-nose-outline"></div>
+            <div class="class-name">.flaticon-nose-outline</div>
+            <div class="author-name">Author: <a data-file="nose-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-nose-pointed-variant-with-mustache"></div>
+            <div class="class-name">.flaticon-nose-pointed-variant-with-mustache</div>
+            <div class="author-name">Author: <a data-file="nose-pointed-variant-with-mustache" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-observing-human-body-details-with-a-magnifier-tool"></div>
+            <div class="class-name">.flaticon-observing-human-body-details-with-a-magnifier-tool</div>
+            <div class="author-name">Author: <a data-file="observing-human-body-details-with-a-magnifier-tool" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-pelvic-bone-silhouette"></div>
+            <div class="class-name">.flaticon-pelvic-bone-silhouette</div>
+            <div class="author-name">Author: <a data-file="pelvic-bone-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-pills-container"></div>
+            <div class="class-name">.flaticon-pills-container</div>
+            <div class="author-name">Author: <a data-file="pills-container" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-plate-showing-deoxyribonucleic-acid-structure"></div>
+            <div class="class-name">.flaticon-plate-showing-deoxyribonucleic-acid-structure</div>
+            <div class="author-name">Author: <a data-file="plate-showing-deoxyribonucleic-acid-structure" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-polygon-shape-outline-with-circle-and-stitch"></div>
+            <div class="class-name">.flaticon-polygon-shape-outline-with-circle-and-stitch</div>
+            <div class="author-name">Author: <a data-file="polygon-shape-outline-with-circle-and-stitch" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ribs-lines"></div>
+            <div class="class-name">.flaticon-ribs-lines</div>
+            <div class="author-name">Author: <a data-file="ribs-lines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ribs-x-rays"></div>
+            <div class="class-name">.flaticon-ribs-x-rays</div>
+            <div class="author-name">Author: <a data-file="ribs-x-rays" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-short-black-male-hair-shape"></div>
+            <div class="class-name">.flaticon-short-black-male-hair-shape</div>
+            <div class="author-name">Author: <a data-file="short-black-male-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skin-layers-with-hair-follicles"></div>
+            <div class="class-name">.flaticon-skin-layers-with-hair-follicles</div>
+            <div class="author-name">Author: <a data-file="skin-layers-with-hair-follicles" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skull-cartoon-variant-outline"></div>
+            <div class="class-name">.flaticon-skull-cartoon-variant-outline</div>
+            <div class="author-name">Author: <a data-file="skull-cartoon-variant-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skull-cartoon-variant-with-tape-on-left-eye"></div>
+            <div class="class-name">.flaticon-skull-cartoon-variant-with-tape-on-left-eye</div>
+            <div class="author-name">Author: <a data-file="skull-cartoon-variant-with-tape-on-left-eye" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skull-of-straight-lines"></div>
+            <div class="class-name">.flaticon-skull-of-straight-lines</div>
+            <div class="author-name">Author: <a data-file="skull-of-straight-lines" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skull-outline-from-frontal-view"></div>
+            <div class="class-name">.flaticon-skull-outline-from-frontal-view</div>
+            <div class="author-name">Author: <a data-file="skull-outline-from-frontal-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-small-syringe-with-large-droplet-of-fluid"></div>
+            <div class="class-name">.flaticon-small-syringe-with-large-droplet-of-fluid</div>
+            <div class="author-name">Author: <a data-file="small-syringe-with-large-droplet-of-fluid" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-smiling-mouth-showing-teeth"></div>
+            <div class="class-name">.flaticon-smiling-mouth-showing-teeth</div>
+            <div class="author-name">Author: <a data-file="smiling-mouth-showing-teeth" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sperm-entering-to-an-ovule"></div>
+            <div class="class-name">.flaticon-sperm-entering-to-an-ovule</div>
+            <div class="author-name">Author: <a data-file="sperm-entering-to-an-ovule" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sperms"></div>
+            <div class="class-name">.flaticon-sperms</div>
+            <div class="author-name">Author: <a data-file="sperms" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-spleen"></div>
+            <div class="class-name">.flaticon-spleen</div>
+            <div class="author-name">Author: <a data-file="spleen" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-spleen-human-body-part"></div>
+            <div class="class-name">.flaticon-spleen-human-body-part</div>
+            <div class="author-name">Author: <a data-file="spleen-human-body-part" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-standing-human-body-shape"></div>
+            <div class="class-name">.flaticon-standing-human-body-shape</div>
+            <div class="author-name">Author: <a data-file="standing-human-body-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-standing-human-body-silhouette"></div>
+            <div class="class-name">.flaticon-standing-human-body-silhouette</div>
+            <div class="author-name">Author: <a data-file="standing-human-body-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-standing-male-silhouette-with-x-ray-view-of-the-lungs"></div>
+            <div class="class-name">.flaticon-standing-male-silhouette-with-x-ray-view-of-the-lungs</div>
+            <div class="author-name">Author: <a data-file="standing-male-silhouette-with-x-ray-view-of-the-lungs" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-standing-man-holding-a-large-intestines-image"></div>
+            <div class="class-name">.flaticon-standing-man-holding-a-large-intestines-image</div>
+            <div class="author-name">Author: <a data-file="standing-man-holding-a-large-intestines-image" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-standing-man-holding-an-x-rays-image"></div>
+            <div class="class-name">.flaticon-standing-man-holding-an-x-rays-image</div>
+            <div class="author-name">Author: <a data-file="standing-man-holding-an-x-rays-image" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-stomach"></div>
+            <div class="class-name">.flaticon-stomach</div>
+            <div class="author-name">Author: <a data-file="stomach" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-stomach-inside-human-body"></div>
+            <div class="class-name">.flaticon-stomach-inside-human-body</div>
+            <div class="author-name">Author: <a data-file="stomach-inside-human-body" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-straight-bones-cross"></div>
+            <div class="class-name">.flaticon-straight-bones-cross</div>
+            <div class="author-name">Author: <a data-file="straight-bones-cross" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sweat-or-tear-drop-outline"></div>
+            <div class="class-name">.flaticon-sweat-or-tear-drop-outline</div>
+            <div class="author-name">Author: <a data-file="sweat-or-tear-drop-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-symmetrical-body-parts"></div>
+            <div class="class-name">.flaticon-symmetrical-body-parts</div>
+            <div class="author-name">Author: <a data-file="symmetrical-body-parts" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-syringe"></div>
+            <div class="class-name">.flaticon-syringe</div>
+            <div class="author-name">Author: <a data-file="syringe" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tablet-and-capsule-medications"></div>
+            <div class="class-name">.flaticon-tablet-and-capsule-medications</div>
+            <div class="author-name">Author: <a data-file="tablet-and-capsule-medications" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-test-tube-with-droplet"></div>
+            <div class="class-name">.flaticon-test-tube-with-droplet</div>
+            <div class="author-name">Author: <a data-file="test-tube-with-droplet" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-thin-lips-outline"></div>
+            <div class="class-name">.flaticon-thin-lips-outline</div>
+            <div class="author-name">Author: <a data-file="thin-lips-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tiptoe-feet-outline"></div>
+            <div class="class-name">.flaticon-tiptoe-feet-outline</div>
+            <div class="author-name">Author: <a data-file="tiptoe-feet-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tooth-human-body-part"></div>
+            <div class="class-name">.flaticon-tooth-human-body-part</div>
+            <div class="author-name">Author: <a data-file="tooth-human-body-part" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tooth-outline"></div>
+            <div class="class-name">.flaticon-tooth-outline</div>
+            <div class="author-name">Author: <a data-file="tooth-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tooth-outline-1"></div>
+            <div class="class-name">.flaticon-tooth-outline-1</div>
+            <div class="author-name">Author: <a data-file="tooth-outline-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tooth-shape-outline"></div>
+            <div class="class-name">.flaticon-tooth-shape-outline</div>
+            <div class="author-name">Author: <a data-file="tooth-shape-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tooth-x-rays-vision"></div>
+            <div class="class-name">.flaticon-tooth-x-rays-vision</div>
+            <div class="author-name">Author: <a data-file="tooth-x-rays-vision" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-two-fingers-between-three-in-a-hand-outline"></div>
+            <div class="class-name">.flaticon-two-fingers-between-three-in-a-hand-outline</div>
+            <div class="author-name">Author: <a data-file="two-fingers-between-three-in-a-hand-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-two-fingers-of-a-hand"></div>
+            <div class="class-name">.flaticon-two-fingers-of-a-hand</div>
+            <div class="author-name">Author: <a data-file="two-fingers-of-a-hand" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-upper-body-muscular-view"></div>
+            <div class="class-name">.flaticon-upper-body-muscular-view</div>
+            <div class="author-name">Author: <a data-file="upper-body-muscular-view" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-upper-torso-of-a-woman"></div>
+            <div class="class-name">.flaticon-upper-torso-of-a-woman</div>
+            <div class="author-name">Author: <a data-file="upper-torso-of-a-woman" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-urine-in-a-flask-for-experimentation"></div>
+            <div class="class-name">.flaticon-urine-in-a-flask-for-experimentation</div>
+            <div class="author-name">Author: <a data-file="urine-in-a-flask-for-experimentation" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-uterus-and-fallopian-tube"></div>
+            <div class="class-name">.flaticon-uterus-and-fallopian-tube</div>
+            <div class="author-name">Author: <a data-file="uterus-and-fallopian-tube" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-uterus-and-fallopian-tube-inside-woman-body-outline"></div>
+            <div class="class-name">.flaticon-uterus-and-fallopian-tube-inside-woman-body-outline</div>
+            <div class="author-name">Author: <a data-file="uterus-and-fallopian-tube-inside-woman-body-outline" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-waist"></div>
+            <div class="class-name">.flaticon-waist</div>
+            <div class="author-name">Author: <a data-file="waist" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-woman-dark-long-hair-shape"></div>
+            <div class="class-name">.flaticon-woman-dark-long-hair-shape</div>
+            <div class="author-name">Author: <a data-file="woman-dark-long-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-wound-in-a-hand"></div>
+            <div class="class-name">.flaticon-wound-in-a-hand</div>
+            <div class="author-name">Author: <a data-file="wound-in-a-hand" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-young-male-black-short-hair-shape"></div>
+            <div class="class-name">.flaticon-young-male-black-short-hair-shape</div>
+            <div class="author-name">Author: <a data-file="young-male-black-short-hair-shape" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+
+    </section>
+
+
+
+    <section class="attribution wrapper"   style="text-align:center;">
+
+      <div class="title">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>. <div><p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="body-part-with-baby-inside" href="http://www.freepik.com">Freepik</a></p>  </div>
+      </div>
+      <div class="title">Copy the Attribution License:</div>
+
+    <textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;. <p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="body-part-with-baby-inside" href="http://www.freepik.com">Freepik</a></p>  
+     </textarea>
+
+    </section>
+
+    <section class="iconsuse">
+
+          <div class="title">Examples:</div>            
+             
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-atom-variant"></i> 
+                    <span>&lt;i class=&quot;flaticon-atom-variant&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-back-part-of-the-body-showing-butt-area"></i> 
+                    <span>&lt;i class=&quot;flaticon-back-part-of-the-body-showing-butt-area&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-ball-of-the-knee"></i> 
+                    <span>&lt;i class=&quot;flaticon-ball-of-the-knee&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-blond-female-hair-shape"></i> 
+                    <span>&lt;i class=&quot;flaticon-blond-female-hair-shape&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+                       
+        </div>
+                            
+    </section>
+
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>
