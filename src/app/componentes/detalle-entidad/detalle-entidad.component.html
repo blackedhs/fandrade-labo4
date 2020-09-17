@@ -1,0 +1,10 @@
+<div *ngIf="!entidad" style="padding: 20px;">
+    <!-- <h1 style="text-align: center;">Detalle País</h1> -->
+    <p style="text-align: center; margin-top: 10px;"> Seleccione un país </p>
+</div>
+<div *ngIf="entidad" style="padding: 20px; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+    <!-- <h1 style="text-align: center;">Detalle País</h1> -->
+    <h5 style="text-align: center;">Nombre: {{entidad.Nombre}}</h5>
+    <h5 style="text-align: center;">Apellido: {{entidad.Apellido}}</h5>
+    <img [src]="entidad.FotoPerfil" alt="" style="width: 60%; height: 60%">
+</div>

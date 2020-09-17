@@ -1,0 +1,10 @@
+<h1>ControlEntidad</h1>
+<div class="row">
+    <div class="col-6">
+        <app-listado-entidad [listado]='consumo' (verDetalle)="entidadSeleccionada($event)"></app-listado-entidad>
+    </div>
+    <div class="col-6">
+        <app-detalle-entidad [entidad]="Seleccion"></app-detalle-entidad>
+
+    </div>
+</div>

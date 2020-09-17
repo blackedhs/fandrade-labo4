@@ -1,0 +1,40 @@
+<h1>Listado:</h1>
+<table class="table col-md-6">
+    <thead>
+        <tr>
+            <th scope="'col'">ID</th>
+            <th scope="'col'">NOMBRE</th>
+            <th scope="'col'">APELLIDO</th>
+            <th scope="'col'">EMAIL</th>
+            <th scope="'col'">SEXO</th>
+            <th scope="'col'">FOTO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let persona of listado">
+            <th scope="row">
+                {{ persona.id }}
+            </th>
+            <td>
+                {{ persona.Nombre }}
+            </td>
+            <td>
+                {{ persona.Apellido }}
+            </td>
+            <td>
+                {{ persona.email }}
+            </td>
+            <td>
+                {{ persona.Sexo }}
+            </td>
+            <td>
+                <img [src]="persona.FotoPerfil" alt="" width="30%" />
+            </td>
+            <td style="width: 20%;">
+                <button mat-icon-button color="primary" (click)="VerEntidad(persona)">
+            Detalle
+        </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

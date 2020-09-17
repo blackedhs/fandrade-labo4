@@ -1,0 +1,5 @@
+td{
+    border-block-color: black;
+    border-block: inherit;
+    block-size: inherit;
+}
